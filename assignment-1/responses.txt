@@ -1,3 +1,5 @@
-I do not like cheese.
-Harry Potter is the best.
-My legs are really tired and sore.
+The web is different than the Internet because the Internet is a set of rules that allows networks to communicate. On the other hand, the world wide web is a system of different pages that uses the Internet as a sort of highway to pass along.
+The Internet is a wire, with servers that are connected directly to the Internet wire. Each server has a unique IP address that different computers use to find each other. Our personal computers/phones at home are indirectly connected to the Internet via an internet service provider.
+A directory is a location where files are stored on a computer. The directory is the overarching file that then contains many child folders and files within it.
+You can track changes, revert back to the original files, and also share and collaborate files. I think it will be particularly helpful when learning to code because I can see my changes and revert back after making an error if needed. If we weren't using a system like this, I think I would get lost very easily.
+This is dorky but I didn't know how to properly name and structure my files. I thought the process of naming, always being consistent and avoiding extraneous characters was quite interesting. Its so easy to understand! I look forward to having an organized file structure in the future.
