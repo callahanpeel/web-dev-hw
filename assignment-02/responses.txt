@@ -1,1 +1,9 @@
 My responses:
+
+Data travels across the internet in packets. These packets travel from one machine to another in a non-linear route.
+
+An IP address is the address assigned to a computer or server. DNS stands for "Domain Name Service" that attaches the domain name of your website to an IP address.
+
+A computer cookie is a small bit of information that a website sends to your computer, stored inside your web browser. They are used to record your browsing history and remember your information.
+
+The three parts are the protocol (https://), the domain name (callahnpeel) and the path (/blog-sheiscool).
