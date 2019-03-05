@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clyde Coffee</title>
+    <!-- Meta data and information about your site, not visible to visitors. -->
+  </head>
+
+  <body>
+    <h1>Clyde Coffee</h1>
+
+    <h3>Contact Us</h3>
+    <p>
+      <address>
+        Clyde Coffee<br />
+        610 S Higgins Aver<br />
+        Missoula, MT 59801
+        406-540-4481
+      </address>
+
+        Have a question?
+        <a href="malto:callahan.peel@umconnect.umt.edu">Email us!</a>
+</p>
+
+    <head>
+      <style>
+    table, th, td {
+      border: 0.5px solid grey;
+      padding: 8px;
+    }
+      </style>
+    </head>
+
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Sunday</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+        <th scope="col">Saturday</th>
+      </tr>
+      <tr>
+        <th scope="row">Open</th>
+        <td>8 a.m.</td>
+        <td>6 a.m.</td>
+        <td>6 a.m.</td>
+        <td>6 a.m.</td>
+        <td>6 a.m.</td>
+        <td>6 a.m.</td>
+        <td>8 a.m.</td>
+      </tr>
+      <tr>
+        <th scope="row">Close</th>
+        <td>6 p.m.</td>
+        <td>6 p.m</td>
+        <td>6 p.m</td>
+        <td>6 p.m</td>
+        <td>6 p.m</td>
+        <td>6 p.m</td>
+        <td>6 p.m</td>
+      </tr>
+    </table>
+
+    <p>
+        What's your favorite toast topping?
+        <textarea type="text" id="toast" name="toast" required minlength="4" maxlength="100">We love our house avocado toast!</textarea>
+    </p>
+
+    <p>What's your favorite way to take your coffee?</p>
+      <select name="favorite_coffee">
+        <option value="Mi">Milk + Sugar</option>
+        <option value="Ju">Just milk</option>
+        <option value="Jus">Just sugar</option>
+        <option value="Bl">Black</option>
+        <option value="CA">Other</option>
+
+      </select>
+
+    <p align="center">
+    <form action="https://www.clydecofffee.com/subscribe.php" method="post">
+       <p>Subscribe for our latest coffee updates!:</p>
+         <input type="text" name="email" />
+         <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+
+</p>
+Additional comments:
+<textarea name="comments" id="test-textarea">Enter up to 500 characters...</textarea>
+<input type="image" width="75" height="100" src="./images/submit-button.png"
+    </p>
+
+    </body>
+
+</html>
