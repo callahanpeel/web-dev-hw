@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+  <!-- Callahan's assignment for intro to web design! -->
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Instructions on how to make a latte.">
+    <meta name="author" content="Callahan Peel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Make a Latte</title>
+    <style>
+      body {
+        background-image: url("./images/coffee-beans.jpg");
+          height: 500px;
+          background-position: center;
+          background-repeat: repeat;
+        }
+        .container {
+          background-color: rgb(255, 255, 255);
+          width: 600px;
+          margin: auto;
+          padding: 20px;
+          font-family: Arial;
+        }
+    </style>
+  </head>
+<body>
+    <nav id="navigation" class="container">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="contact" class="container">
+        <h1>Contact Me</h1>
+        <img src="./images/callahan.jpg" alt="Picture of callahan holding a plant." title="Picture of Callahan" width="300" height="400"> </img>
+        <form action="./contact.html" method="post" id="ask-info">
+        <p>
+            Name<br>
+            <input type="text" name="name" id="name-input" /> <br><br>
+            Email<br>
+            <input type="text" name="email" id="email-input" placeholder="example@umontana.edu" /> <br><br>
+            Are you a student?</br>
+            <input type="radio" name="student" value="yes" /> Yes
+            <br>
+            <input type="radio" name="student" value="no" checked /> No
+            <br>
+            <br>
+            Comments:<br>
+            <textarea name="comments" id="comments-textarea" maxlength="500" cols="90" rows="4">
+                Enter up to 100 characters...
+            </textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        </form>
+    </div>
+</body>
+
+</html>
