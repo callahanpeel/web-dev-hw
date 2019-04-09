@@ -1,0 +1,62 @@
+@font-face {
+  font-family:'Merriweather-Regular';
+  src:url('../fonts/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Italic';
+  src:url('../fonts/Merriweather-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src:url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size:16pt;
+  letter-spacing: normal;
+  padding: 10px 10px 10px 10px;
+}
+
+h1 {
+  font-family: 'Merriweather-Regular', serif;
+  font-size: 3em;
+}
+
+h2, cite {
+  font-family: 'Merriweather-Italic', serif;
+  font-size: 2em;
+  font-style: italic;
+}
+
+p  {
+  font-family: 'Montserrat-Regular', sans-serif,
+  font-size: 12pt;
+  line-height: 2em;
+  padding: 2px;
+}
+
+.main-content {
+  width: 75%;
+  height: auto;
+}
+
+
+.main-content p:first-child::first-letter {
+  font-family: 'Merriweather-Regular', serif;
+  font-size:5em;
+}
+
+.main-content p:first-child::first-line {
+  font-style: italic
+}
