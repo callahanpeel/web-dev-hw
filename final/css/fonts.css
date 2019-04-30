@@ -1,0 +1,25 @@
+/* fonts */
+@font-face {
+  font-family: 'Playfair Display Bold', serif;
+  src: url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display Regular', serif;
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito Sans Bold', sans-serif;
+  src: url('../fonts/NunitoSands-Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito Sans SemiBold', sans-serif;
+  src: url('../fonts/NunitoSands-SemiBold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
